@@ -43,4 +43,4 @@
                                                                     'ShiftLength_Hours','Age','AgeCategory','yearsInWork','dayName',
                                                                     'monthName','year','holidayName']]
     # Lagre til en CSV-fil
-    df.to_csv('filtered_data.csv', index=False)
+    df.to_csv('filtered_data.csv', sep=";", encoding="utf-8-sig")
